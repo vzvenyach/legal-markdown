@@ -19,4 +19,4 @@ So, here's the concept for how I'm planning on porting over LMD to JS:
 
 ## How it might look
 
-    {"document":[{"id":"1","level":"0","num":"","heading":"","text":"Lorem ipsum","children":null},{"id":"2", "level":"1","num":"I","heading":"Level Heading 1", "text":"Testing of the level heading 1","children":[{"id":"3", "level":"2","num":A","heading":"Level Heading 2","text":"This would be a sub-level of level I","children":null},{"id":"3", "level":"2","num":B","heading":"Second Sublevel Heading","text":"This would also be a sub-level of level I","children":null}]}
+    {"document":[{"id":"1","level":"0","num":"","heading":"","text":"Lorem ipsum","children":null},{"id":"2", "level":"1","num":"I","heading":"Level Heading 1", "text":"Testing of the level heading 1","children":[{"id":"3", "level":"2","num":"A","heading":"Level Heading 2","text":"This would be a sub-level of level I","children":null},{"id":"3", "level":"2","num":"B","heading":"Second Sublevel Heading","text":"This would also be a sub-level of level I","children":null}]}]}
