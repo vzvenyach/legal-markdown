@@ -3,7 +3,7 @@ So, here's the concept for how I'm planning on porting over LMD to JS:
 ## Basic Idea
 1. I'm going to leverage [mustache](http://mustache.github.io) to handle:
 
-  a. mixins
+  a. mixins. (to parse the YAML front matter to get the mixins, I'm going to use this: https://github.com/nodeca/js-yaml)
   
   b. partials
 
@@ -46,7 +46,7 @@ So, here's the concept for how I'm planning on porting over LMD to JS:
           "children":null
         },
         {
-          "id":"3",
+          "id":"4",
           "level":"2",
           "num":"B",
           "heading":"Second Sublevel Heading",
